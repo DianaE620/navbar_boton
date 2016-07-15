@@ -1,0 +1,65 @@
+.container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+}
+
+li{
+  display: inline;
+  width: 150px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+/*  background: linear-gradient( 45deg, blue, red ); */
+/*  background: linear-gradient(to bottom right, red, rgba(0,0,0,0)); */
+background: linear-gradient(#54546c, #dddfe6);
+  border: 1px solid white;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+li:nth-child(1){
+  margin-left: 23px;
+  border-radius: 7px 0 0 7px;
+}
+
+li:nth-child(5){
+  border-radius: 0 7px 7px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
